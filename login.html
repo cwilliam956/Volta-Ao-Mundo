@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/login.css" rel="stylesheet" type="text/css">
+    <title>Login</title>   
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    
+    
+    <div class="login">
+      <div class="login-block">
+        <a href="index.html" class="close-icon">X</a>
+
+      <div class="animation"> <h2>login</h2> </div>
+      
+      <form action="php/usuario-login.php" method="post">
+        <input type="text" class="text" name="usuario" required>
+         <span>usuário</span>
+        <br>
+        <br>  
+        <input type="password" class="text" name="senha" required>
+        <span>Senha</span>
+        <br>
+        <input type="checkbox" id="checkbox-1-1" class="custom-checkbox" />
+        <label for="checkbox-1-1">Mantenha-me conectado </label>
+        <br>
+        <br>
+        <button class="signin" type="submit" value="logar">
+         Login
+        </button>
+        <hr>
+        <a href="#">Esqueci a Senha </a>
+      </form>
+    
+    </div>
+</body>
+</html>
+
